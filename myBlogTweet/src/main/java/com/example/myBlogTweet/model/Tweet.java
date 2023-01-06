@@ -35,11 +35,11 @@ public class Tweet {
 
 
     public int getId() {
-        return this.id;
+        return Tweet.id;
     }
 
     public void setId(int id) {
-        this.id = id;
+        Tweet.id = id;
     }
 
     public String getAuthor() {
